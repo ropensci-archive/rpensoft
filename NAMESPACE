@@ -1,3 +1,5 @@
+export(getrecord)
 export(listidentifiers)
+import(OAIHarvester)
 import(RCurl)
 import(XML)
