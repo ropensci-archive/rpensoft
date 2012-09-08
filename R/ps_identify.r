@@ -7,7 +7,7 @@
 #' @examples \dontrun{
 #' ps_identify()
 #' }
-ps_identify <- function(url = "http://oai.pensoft.eu", transform = FALSE) 
+ps_identify <- function(url = "http://oai.pensoft.eu", transform = TRUE) 
 {
     oaih_identify(url, transform = transform)
 }

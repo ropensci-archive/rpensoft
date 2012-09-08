@@ -3,7 +3,7 @@
 \title{Learn about the Pensoft OAI-PMH service.}
 \usage{
   ps_identify(url = "http://oai.pensoft.eu",
-    transform = FALSE)
+    transform = TRUE)
 }
 \arguments{
   \item{url}{Base URL for the service.}
