@@ -5,9 +5,9 @@
 #' @return List of information describing the Pensoft OAI-PMH services.
 #' @export
 #' @examples \dontrun{
-#' identify()
+#' ps_identify()
 #' }
-identify <- function(url = "http://oai.pensoft.eu", transform = FALSE) 
+ps_identify <- function(url = "http://oai.pensoft.eu", transform = FALSE) 
 {
     oaih_identify(url, transform = transform)
 }

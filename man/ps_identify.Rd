@@ -1,8 +1,8 @@
-\name{identify}
-\alias{identify}
+\name{ps_identify}
+\alias{ps_identify}
 \title{Learn about the Pensoft OAI-PMH service.}
 \usage{
-  identify(url = "http://oai.pensoft.eu",
+  ps_identify(url = "http://oai.pensoft.eu",
     transform = FALSE)
 }
 \arguments{
@@ -17,7 +17,7 @@
 }
 \examples{
 \dontrun{
-identify()
+ps_identify()
 }
 }
 

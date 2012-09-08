@@ -1,4 +1,5 @@
 #' Gets all OAI Pensoft identifiers.
+#' 
 #' @import RCurl XML
 #' @param tor Return list of identifiers to R ('r'), or to your directory
 #'    at '~/.' ('dir') (character).
@@ -14,10 +15,10 @@
 #' @return List of OAI identifiers for each dataset.
 #' @export
 #' @examples \dontrun{
-#' identifiers <- listidentifiers(from = '2012-03-10')
-#' identifiers
+#' identifiers <- ps_listidentifiers(from = '2012-03-10')
+#' ps_listidentifiers
 #' }
-listidentifiers <- function(tor = 'r', set = 'zookeys', metadataPrefix = 'oai_dc',
+ps_listidentifiers <- function(tor = 'r', set = 'zookeys', metadataPrefix = 'oai_dc',
   num = 10, verb = 'ListIdentifiers', from = NA, 
   url = "http://oai.pensoft.eu", ..., curl = getCurlHandle()) {
   

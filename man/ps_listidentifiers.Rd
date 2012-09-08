@@ -1,8 +1,8 @@
-\name{listidentifiers}
-\alias{listidentifiers}
+\name{ps_listidentifiers}
+\alias{ps_listidentifiers}
 \title{Gets all OAI Pensoft identifiers.}
 \usage{
-  listidentifiers(tor = "r", set = "zookeys",
+  ps_listidentifiers(tor = "r", set = "zookeys",
     metadataPrefix = "oai_dc", num = 10,
     verb = "ListIdentifiers", from = NA,
     url = "http://oai.pensoft.eu", ...,
@@ -40,8 +40,8 @@
 }
 \examples{
 \dontrun{
-identifiers <- listidentifiers(from = '2012-03-10')
-identifiers
+identifiers <- ps_listidentifiers(from = '2012-03-10')
+ps_listidentifiers
 }
 }
 
