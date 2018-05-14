@@ -1,22 +1,7 @@
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/latest/unsupported.svg)](http://www.repostatus.org/#unsupported)
+
 # `rpensoft`
 
 ### __No further development__
 
-See packages [fulltext](https://github.com/ropensci/fulltext) for full text data and [rmetadata](https://github.com/ropensci/rmetadata) for scholarly metadata
-
-### Installation
-
-Install using install_github within Hadley's devtools package.
-
-```R
-install.packages("devtools")
-require(devtools)
-install_github("rpensoft", "ropensci")
-require(rpensoft)
-```
-
-This set of functions/package will access full text articles from the PENSOFT journals using their API.
-
-No API key required.
-
-The PENSOFT API uses the OAI-PMH interface. Documentation for OAI-PMH [here](http://www.openarchives.org/pmh/). PENSFOT API docs [here](http://www.pensoft.net/page.php?P=25&SESID=2dabd03da7cafb46901ab4147f20e920).
+See packages [fulltext](https://github.com/ropensci/fulltext) for full text data and [the README of rmetadata](https://github.com/ropensci/rmetadata) for a list of packages accessing scholarly metadata.
